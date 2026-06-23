@@ -1,0 +1,1 @@
+Letakkan semua file screenshot Anda (format .jpg atau .png) di dalam folder ini.

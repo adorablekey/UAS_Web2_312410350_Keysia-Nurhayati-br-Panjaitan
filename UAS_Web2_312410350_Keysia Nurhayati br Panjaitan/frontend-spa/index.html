@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Inventory Management System</title>
+    <link rel="icon" href="data:,">
+    
+    <!-- TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#ec4899',   // pink-500
+                        secondary: '#be185d', // pink-700
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- VueJS 3 CDN -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- Vue Router 4 CDN -->
+    <script src="https://unpkg.com/vue-router@4"></script>
+    <!-- Axios CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <style>
+        /* Modern micro-animations & utilities */
+        .fade-enter-active, .fade-leave-active {
+            transition: opacity 0.3s ease;
+        }
+        .fade-enter-from, .fade-leave-to {
+            opacity: 0;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+
+    <!-- Application Scripts -->
+    <script src="api/api.js"></script>
+    <script src="components/Pagination.js"></script>
+    <script src="components/Landing.js"></script>
+    <script src="components/Login.js"></script>
+    <script src="components/Dashboard.js"></script>
+    <script src="components/Categories.js"></script>
+    <script src="components/Products.js"></script>
+    <script src="components/Transactions.js"></script>
+    <script src="components/Profile.js"></script>
+    <script src="router/router.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

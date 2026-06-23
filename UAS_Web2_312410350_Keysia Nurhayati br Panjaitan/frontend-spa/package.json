@@ -1,0 +1,12 @@
+{
+  "name": "frontend-spa",
+  "version": "1.0.0",
+  "description": "Frontend SPA for E-Inventory using Vue CDN",
+  "scripts": {
+    "dev": "npx http-server -p 8081 -c-1 -o",
+    "start": "npx http-server -p 8081 -c-1 -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
