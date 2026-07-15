@@ -90,4 +90,4 @@ Berikut adalah panduan singkat untuk menjalankan proyek ini di komputer lokal An
 ## 5. Tautan Penting
 
 - 🔗 **Link Demo Aplikasi**: https://github.com/adorablekey/UAS_Web2_312410350_Keysia-Nurhayati-br-Panjaitan.git
-- 🎥 **Link Video Presentasi**: *(Menunggu Upload YouTube)*
+- 🎥 **Link Video Presentasi**: 
